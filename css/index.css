@@ -42,6 +42,7 @@
 	border-radius: 0.1rem;
 	font-size: 0.3rem;
 	color: #696969;
+	outline: none;
 }
 .suosou_btn{
 	font-family: 'iconfont';
@@ -56,6 +57,10 @@
     left: 0px;
     top: 0.06rem;
     border-radius: 0.1rem;
+	outline: none;
+}
+.suosou_btn:hover{
+	border:none ;
 }
 .daohang{
 	width: 100%;
@@ -90,7 +95,7 @@
 	opacity: 0.9;
 	padding-left: 0.28rem;
 	position: absolute;
-	top: -0.02rem;
+	top: 0rem;
 	right: 0.27rem;
 	font-size: 0.6rem;
 	color: #000;
